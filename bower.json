@@ -1,0 +1,29 @@
+{
+  "name": "my project",
+  "authors": [
+    "“efri-yang” <“948061564@qq.com”>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "requirejs": "latest"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "": "dist/"
+    }
+  }
+}
