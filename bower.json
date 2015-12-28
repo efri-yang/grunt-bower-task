@@ -18,12 +18,16 @@
   ],
   "dependencies": {
     "jquery": "latest",
+    "jquery-1.7.0": "jquery#1.7.0",
     "bootstrap": "latest",
     "requirejs": "latest"
   },
   "exportsOverride": {
     "bootstrap": {
       "": "dist/"
+    },
+    "jquery":{
+      "":["jquery.{js,min.js,min.map}","**/jquery.{js,min.js,min.map}"]
     }
   }
 }
